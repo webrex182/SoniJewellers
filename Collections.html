@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soni Jewellers</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="site-header" id="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="#" class="logo">Soni <span>Jewellers</span></a>
+                
+                <nav class="nav-main">
+                    <a href="#collections">Collections</a>
+                    <a href="#story">Our Story</a>
+                    <a href="#craftsmanship">Craftsmanship</a>
+                    <a href="https://maps.app.goo.gl/tVrTS2cHJo8wg9KMA" target="_blank">Visit Us</a>
+                    <a href="https://wa.me/+919574507505" target="_blank" class="nav-cta">Book Appointment</a>
+                </nav>
+                
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Mobile Navigation -->
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+    <nav class="mobile-nav" id="mobileNav">
+        <button class="mobile-nav-close" id="mobileNavClose">×</button>
+        <ul class="mobile-nav-links">
+            <li><a href="#collections">Collections</a></li>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#craftsmanship">Craftsmanship</a></li>
+            <li><a href="#contact">Visit Us</a></li>
+        </ul>
+        <div class="mobile-nav-cta">
+            <a href="#contact" class="btn-primary">Book Appointment</a>
+        </div>
+    </nav>
+    
+    <!-- Collections -->
+    <section class="collections" id="collections">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-header-left">
+                    <h2 class="heading-display section-title">Our Collections</h2>
+                    <p class="text-body section-subtitle">
+                        Discover pieces crafted for every chapter of your story
+                    </p>
+                </div>
+                <a href="#" class="btn-text">View All Collections</a>
+            </div>
+            
+            <div class="collections-grid">
+                <div class="collection-item">
+                    <div class="collection-image">
+                        <img src="images/1.webp" 
+                             alt="Bridal jewelry collection">
+                    </div>
+                    <div class="collection-overlay">
+                        <h3 class="collection-name">Bridal</h3>
+                        <p class="collection-count">24 pieces</p>
+                    </div>
+                </div>
+                
+                <div class="collection-item">
+                    <div class="collection-image">
+                        <img src="images/9.webp" 
+                             alt="Everyday gold jewelry">
+                    </div>
+                    <div class="collection-overlay">
+                        <h3 class="collection-name">Everyday Elegance</h3>
+                        <p class="collection-count">36 pieces</p>
+                    </div>
+                </div>
+                
+                <div class="collection-item">
+                    <div class="collection-image">
+                        <img src="images/13.webp" 
+                             alt="Statement gold pieces">
+                    </div>
+                    <div class="collection-overlay">
+                        <h3 class="collection-name">Statement</h3>
+                        <p class="collection-count">18 pieces</p>
+                    </div>
+                </div>
+                
+                <div class="collection-item">
+                    <div class="collection-image">
+                        <img src="images/18.webp" 
+                             alt="Heritage collection">
+                    </div>
+                    <div class="collection-overlay">
+                        <h3 class="collection-name">Heritage</h3>
+                        <p class="collection-count">12 pieces</p>
+                    </div>
+                </div>
+                
+                <div class="collection-item">
+                    <div class="collection-image">
+                        <img src="images/5.webp" 
+                             alt="Men's gold collection">
+                    </div>
+                    <div class="collection-overlay">
+                        <h3 class="collection-name">Men's Collection</h3>
+                        <p class="collection-count">15 pieces</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>   
+    
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Column 1: Brand & Contact -->
+                <div class="footer-brand">
+                    <p class="footer-logo">Soni <span>Jewellers</span></p>
+                    <p class="footer-tagline">
+                        Handcrafted gold jewelry of exceptional quality and timeless elegance. Family-owned atelier since 1987.
+                    </p>
+                    <div class="footer-contact-info">
+                        <p>742 Fifth Avenue, Suite 1200</p>
+                        <p>New York, NY 10019</p>
+                        <p><a href="tel:+919574507505">+91 95745 07505</a></p>
+                    </div>
+                </div>
+                
+                <!-- Column 2: Quick Links -->
+                <div class="footer-column">
+                    <h4 class="footer-column-title">Collections</h4>
+                    <ul class="footer-links">
+                        <li><a href="#collections">All Collections</a></li>
+                        <li><a href="#">Bridal</a></li>
+                        <li><a href="#">Everyday Elegance</a></li>
+                        <li><a href="#">Statement Pieces</a></li>
+                        <li><a href="#">Men's Collection</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3: Company -->
+                <div class="footer-column">
+                    <h4 class="footer-column-title">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#story">Our Story</a></li>
+                        <li><a href="#craftsmanship">Craftsmanship</a></li>
+                        <li><a href="#contact">Visit Us</a></li>
+                        <li><a href="#">Custom Design</a></li>
+                        <li><a href="#">Care Guide</a></li>
+                    </ul>
+                </div>
+                
+              
+            </div>
+            
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2026 Soni Jewellers Designed & Maintained By : <a href="#" target="_blank" rel="nofollow">Alex And Team</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="js.js"></script>
+</body>
+</html>
